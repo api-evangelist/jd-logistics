@@ -1,8 +1,25 @@
 aid: jd-logistics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jd-logistics.png
 name: JD Logistics
-description: 'JD Logistics is a company surfaced as a portfolio company of softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. Sector: logistics. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'JD Logistics (Hong Kong listed as 2618.HK) is a technology-driven supply chain and logistics
+  service provider spun out of JD.com and backed by the SoftBank Vision Fund. It operates one of China''s
+  largest integrated logistics networks, offering express and freight delivery, integrated warehouse-and-fulfillment,
+  cold-chain and pharmaceutical logistics, cross-border shipping, oversized-item handling, and smart supply-chain
+  technology. Through its JD Logistics Open Platform (open.jdl.com) it exposes enterprise integration
+  services for order fulfillment, warehousing, waybill/shipment creation, tracking, and reconciliation to
+  merchants and partners. This profile tracks the company''s public developer and open-platform surface in the
+  API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/jd-logistics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +29,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Logistics
+- Supply Chain
+- Shipping
+- Fulfillment
+- Warehousing
+- Delivery
+- Cold Chain
+- Cross Border
+- E-Commerce
 apis: []
+common:
+- type: DomainSecurity
+  url: security/jd-logistics-domain-security.yml
+- type: Website
+  url: https://www.jdl.com
+- type: DeveloperPortal
+  url: https://open.jdl.com
+- type: Support
+  url: https://www.jdl.com/contactUs
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
