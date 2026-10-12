@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/jd-logistics/integrations
+- https://n8n.io/integrations/jd-logistics/
+- https://composio.dev/toolkits/jd-logistics
+- https://monid.ai/tools/jd-logistics
+checked:
+- https://composio.dev/toolkits/jd-logistics
+- https://monid.ai/tools/jd-logistics
+- https://n8n.io/integrations/jd-logistics/
+- https://zapier.com/apps/jd-logistics/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
